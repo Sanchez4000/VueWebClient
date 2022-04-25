@@ -1,0 +1,15 @@
+.AcceptButton {
+    display: inline-block;
+    background-color: #6290e4;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 3px;
+    min-width: 80px;
+    min-height: 25px;
+}
+
+.text {
+    display: block;
+    text-align: center;
+    margin-block: 0.5em;
+}
