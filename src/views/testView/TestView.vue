@@ -13,7 +13,7 @@
             <div>
                 Password: <input v-model="password">
             </div>
-            <AcceptButton text='Test'>Войти</AcceptButton>
+            <AcceptButton @on-click="login">Войти</AcceptButton>
         </div>
     </div>
 </template>

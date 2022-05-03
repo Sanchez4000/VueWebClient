@@ -1,4 +1,4 @@
-.AcceptButton {
+.accept-button {
     display: inline-block;
     background-color: #6290e4;
     border-radius: 10px;
@@ -6,10 +6,15 @@
     padding: 3px;
     min-width: 80px;
     min-height: 25px;
+    outline: none;
+    border: none;
 }
 
 .text {
     display: block;
     text-align: center;
+    font-size: 11pt;
+    text-decoration: none;
+    color: #69228a;
     margin-block: 0.5em;
 }

@@ -4,4 +4,7 @@ import { Prop } from 'vue-property-decorator';
 
 @Component
 export default class AcceptButton extends Vue {
+    private onClick() {
+        this.$emit('on-click');
+    }
 }
