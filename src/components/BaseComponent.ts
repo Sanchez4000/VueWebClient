@@ -17,4 +17,12 @@ export default class BaseComponent extends Vue {
 
         return axios.post(url, JSON.stringify(requestData), config);
     }
+
+    protected getPlatform(): string {
+        if (window.innerWidth > window.innerHeight) {
+            return 'PC';
+        } else {
+            return 'Mobile';
+        }
+    }
 }

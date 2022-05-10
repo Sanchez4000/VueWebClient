@@ -30,8 +30,12 @@ export default class TestRemoteRequest extends BaseComponent {
     }
 
     private setCookie(): void {
-        if (this.cookieName.length === 0) return;
-        if (this.cookieValue.length === 0) return;
+        if (this.cookieName.length === 0) {
+            return;
+        }
+        if (this.cookieValue.length === 0) {
+            return;
+        }
 
         const curCookie = this.cookieName + '=' + escape(this.cookieValue);
         if ((this.cookieName + '=' + escape(this.cookieValue)).length <= 4000) {

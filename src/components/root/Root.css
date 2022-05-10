@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+#main-container {
+    background-color: rgb(37, 41, 74);
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+
+#menu-container {
+    background-color: rgb(25, 28, 56);
+    display: flex;
+    width: 25%;
+}
+
+#content-container {
+    overflow-y: auto;
+    display: flex;
+    width: 75%;
+}
+
+#footer {
+    background-color: rgb(37, 41, 74);
+    position: fixed;
+    top: 90%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: 0;
+    border-top: 1px solid #ffffff;
+}

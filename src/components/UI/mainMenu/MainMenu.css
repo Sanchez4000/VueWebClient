@@ -1,0 +1,21 @@
+#main-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    margin-top: 20%;
+}
+
+a {
+    margin-left: 30%;
+    filter: brightness(1);
+    display: block;
+    text-decoration: none;
+    color: rgb(127, 127, 127);
+}
+
+a:hover {
+    filter: brightness(2);
+    color: rgb(254, 254, 254);
+}

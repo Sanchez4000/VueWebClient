@@ -1,14 +1,21 @@
 <template>
   <div id="app">
-    <!-- <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/test">Test Page</router-link>
-    </nav> -->
-    <router-view />
+    <root/>
   </div>
 </template>
+<script lang='ts'>
+import BaseComponent from './components/BaseComponent';
+import Component from 'vue-class-component';
 
+@Component({
+  components: {
+    root: require('@/components/root/Root.vue').default,
+  },
+})
+export default class App extends BaseComponent {
+}
+
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
